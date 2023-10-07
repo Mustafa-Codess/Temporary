@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LapShop</title>
+    <!-- <style>
+        table,th,td,tr{
+            border: 1px solid;
+        }
+    </style> -->
+    <link rel="stylesheet" href="stylecss.css">
+</head>
+
+<body class="center">
+
+  <center>
+
+    <header class="backcolor">
+         <h1>LAPSHOP</h1>
+      <div id="flexx">
+        <ul>
+          <li><a style="text-decoration: none" href="#Home">Home</a></li>
+          <li><a style="text-decoration: none" href="#Category">Category</a></li>
+          <li><a style="text-decoration: none" href="#order">Purchase</a></li>
+          <li><a style="text-decoration: none" href="#About Us">About Us</a></li>
+          <li><a style="text-decoration: none" href="#Contact Us">Contact Us</a></li>
+          <li><a style="text-decoration: none" href="#FAQ">FAQ</a></li>
+        </ul>
+      </div>
+      
+    </header>
+
+    <main>
+
+    <section id="Home">
+
+      <h1>HOME</h1>
+      <p class="psedularge">Welcome to our laptop website! Discover a world of computing power, portability, and innovation. Explore our extensive range of laptops designed to meet your every need, from productivity to gaming. Whether you are a student, professional, or tech enthusiast, we have the perfect laptop for you. Browse top brands, compare specs, and find the ideal device to enhance your digital life. Upgrade your computing experience with us today!</p>
+      <img src="Assets/Home.jpg" alt="home page" >
+     
+    </section>
+    <section id="Category">
+      <h2>Laptop Categories</h2>
+      <fieldset class="buylaptop" >
+        <table>
+  <tr>
+    <th>Laptop Category</th>
+    <th>Description</th>
+    <th>Ideal Use Case</th>
+    <th>Laptop Models</th>
+  </tr>
+  <tr>
+    <td>Ultra Books</td>
+    <td>Thin, lightweight, and powerful laptops</td>
+    <td>Business professionals</td>
+    <td> <ol>
+      <li>Dell Xps 13</li>
+      <li>MacBook Air</li>
+      <li>Asus Zenbook</li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td>Gaming Laptops</td>
+    <td> High-performance laptops with dedicated GPUs</td>
+    <td> Gamers And Content Creators </td>
+    <td> <ol>
+      <li>Alienware m15</li>
+      <li>Asus ROG</li>
+      <li>MSI GS66 Stealth</li>
+    </ol> </td>
+  </tr>
+          
+   <tr>
+     <td>Business Laptops</td>
+     <td>Reliable, durable laptops with security features</td>
+     <td>Corporate and Office use</td>
+     <td> <ol>
+      <li>Lenovo Thinkpad X1</li>
+      <li>HP EliteBook</li>
+      <li>Dell Latitude</li>
+    </ol> </td>
+   </tr> 
+          
+     <tr>
+     <td>Budget Laptops</td>
+     <td>Affordable laptops with basic specifications</td>
+     <td> Students and Casual Users </td>
+     <td> <ol>
+      <li>Acer Aspire 5</li>
+      <li>Asus VivoBook</li>
+      <li>HP Pavilion</li>
+    </ol> </td>
+   </tr>     
+          
+     <tr>
+     <td>Chrome Books</td>
+     <td>Budget-friendly laptops running Chrome OS</td>
+     <td>Web browsing and basic task</td>
+      <td> <ol>
+      <li>ASUS Chromebook Flip C434</li>
+      <li>Lenovo Chromebook C330</li>
+    </ol> </td>
+   </tr>     
+          
+</table>
+      </fieldset>
+    </section>
+    
+    
+    <section id="order">
+      <h2>Buy Your Favourate Laptop Now!</h2>
+      <fieldset class="buylaptop"> 
+      <form action="selection">
+     
+            <label for="sel" >Select Model</label>
+            <select name="sel" id="dep">
+                <option >Select</option>
+                <option value="Hp">Hp</option>
+                <option value="lenovo">Lenovo</option>
+                <option value="dell">Dell</option>
+                <option value="asus">Asus</option>
+                <option value="samsung">Samsung</option>
+            </select><br><br>
+        <label for="Stype"> Select Storage Type</label><br>
+        
+        <b>SSD</b><input type="radio" id="Stype" name="type">
+        <b>HDD</b><input type="radio" id="Stype" name="type"><br>
+        
+   <label for="size">Select Size</label>
+                <select name="size" id="size">
+                    <option >Select</option>
+                    <option value="256Gb">256Gb</option>
+                    <option value="512Gb">512Gb</option>
+                    <option value="1TB">1TB</option>
+                    <option value="2Tb">2Tb</option>
+                 
+    </select>
+                <br>
+            <label for="ram">Select Ram</label>
+   
+        <select name="ram" id="ram">
+          <option>select</option>
+          <option value="4gb">4Gb</option>
+          <option value="8gb">8Gb</option>
+          <option value="16gb">16Gb</option>
+          <option value="32gb">32Gb</option>
+        </select>
+            <br>
+        
+     </select>
+                
+        <br><label for="pro">Select Processor</label>
+   
+        <select name="pro" id="pro">
+          <option>select</option>
+          <option value="i3">intel i3</option>
+          <option value="i5">intel i5</option>
+          <option value="i7">intel i7</option>
+          <option value="amd3">Ryzen 3</option>
+          <option value="amd5">Ryzen 5</option>
+        </select>
+            <br>
+        
+        <label for="gen">Processor Gen</label>
+   
+        <select name="gen" id="gen">
+          <option>select</option>
+          <option value="11">11th gen</option>
+          <option value="12">12th gen</option>
+          <option value="13">13th gen</option>
+          <option value="3200">3250U</option>
+          <option value="5500">5500U</option>
+        </select>
+            <br><br>
+        <h2>Delivery Details</h2>
+        <label for="cusn">Full Name: </label>
+        <input type="text" id="cusn" placeholder="Enter Full Name"><br>
+        
+       <label for="cusno">Mobile Number: </label>
+        <input type="number" id="cusno" placeholder="Mobile"><br>
+        <label for="Acusno">Alternate Number</label>
+        <input type="number" id="Acusno" placeholder="Alternate no."><br>
+        <label for="addr"><strong> Home Address</strong></label><br>
+        <textarea name="addr" id="addr" cols="10" rows="3"></textarea><br>
+        <button type="submit">Confirm Order</button>
+          </form>
+      </fieldset>
+    </section><br><br>
+  
+  
+  
+  <section>
+    <h2>Most Selling Laptops</h2>
+     
+    <img src="Assets/Asus.jpg" alt="Asus 16X" >
+    <h3>Asus 16X</h3><br>
+    
+   <img src="Assets/Lenovo.jpg" alt="Lenovo Yoga Slim 7" >
+    <h3>Lenovo Yoga Slim 7</h3><br>
+    
+    <img src="Assets/hp15s.jpg" alt="Hp 15s">
+    <h3>HP 15s</h3><br>
+    
+    
+    <img src="Assets/Dell.jpg" alt="Dell Inspiron 7420" >
+    <h3>Dell Inspiron 7420</h3><br>
+    
+    <img src="Assets/Asus Tuf.jpg" alt="Asus Tuf Gaming" >
+    <h3>Asus Tuf Gaming</h3><br>
+    
+  </section>
+
+
+  </main>
+  
+    
+    
+  <section id="About Us">
+    <h2>About Us</h2>
+    <fieldset id="about"> 
+      <p>
+      Welcome to LapShop, your trusted source for all things laptop-related!
+
+At LapShop, we are passionate about helping you find the perfect laptop to meet your needs. Whether you are a tech enthusiast, a business professional, a creative artist, or a student, we have got you covered.
+
+Our team of experts is dedicated to providing you with up-to-date information, in-depth reviews, and buying guides to make your laptop shopping experience a breeze. We understand that choosing the right laptop can be overwhelming, with so many options available in the market. Thats why we are here to simplify the process, offering insights, recommendations, and the latest trends in the world of laptops.
+
+We believe that technology should enhance your life, and a well-informed decision can make all the difference. So, whether you are looking for a sleek ultrabook, a powerhouse gaming laptop, a reliable business companion, or anything in between, LapShop is here to assist you on your journey to find the perfect laptop.
+
+Thank you for visiting us, and we look forward to being your go-to resource for all your laptop-related inquiries.
+    </p>
+    </fieldset>
+  </section>
+    
+  <section id="FAQ">
+    <h2>!Frequently Asked Questions!</h2>
+    
+    <p><b>Q1: How do I choose the right laptop for my needs?</b><br>
+ <b>A: </b> Choosing the right laptop depends on your specific requirements. Consider factors like your intended use (e.g., gaming, work, or general use), budget, preferred operating system (Windows, macOS, or Linux), and desired features (such as portability, performance, or battery life). You can explore our comprehensive buying guides and reviews to make an informed decision.
+    </p><br>
+    
+    <p><b>Q2: What is the difference between an SSD and an HDD, and which one should I choose?</b><br>
+  <b>A: </b> SSDs (Solid-State Drives) are faster and more durable than HDDs (Hard Disk Drives) because they have no moving parts. SSDs are ideal for faster boot times, quicker application loading, and improved overall system responsiveness. However, HDDs often offer larger storage capacities at a lower cost. Choose an SSD for speed and performance, and an HDD for cost-effective storage if you have space-intensive needs.
+    </p><br>
+    
+  <p><b>Q3: How can I extend my laptop storage </b><br>
+   <b>A: </b>Replace the existing hard drive (HDD) with a larger one or swap it for a solid-state drive (SSD) with more storage space. This can significantly increase storage capacity and improve performance.</p>
+    
+   </section>
+   
+
+   <footer>
+  <section id="Contact Us">
+        <h2>Contact Us</h2>
+        <p>Call us on:- <a style="text-decoration: none" href="Telephone:7306786786">7306786786</a></p>
+        <p>Contact Via Email:- <a style="text-decoration: none" href="mailto:LapShop@gmail.com">LapShop@gmail.com</a></p>
+    </section>
+  
+    
+        <p>&copy;2023 LapShop(India) Private Limited. All rights reserved</p>
+    </footer>
+    
+    </center>
+  
+  
+</body>
+</html>
